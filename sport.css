@@ -180,7 +180,10 @@ footer {
     .image img {
         max-width: 100%;
     }
+ .gallery h2{
+    color: white;
 
+}
     .contact form {
         padding: 0 20px;
     }

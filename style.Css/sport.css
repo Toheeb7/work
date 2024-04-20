@@ -1,4 +1,4 @@
-/* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -88,6 +88,7 @@ nav ul li a {
 .gallery {
     text-align: center;
     padding: 40px 20px;
+    color: white;
 }
 
 .image img {
@@ -101,6 +102,7 @@ nav ul li a {
 .contact {
     text-align: center;
     padding: 40px 20px;
+    color: white;
 }
 
 .contact form {
@@ -148,7 +150,7 @@ footer {
     padding: 20px 0;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
     header {
         padding: 10px 0;
@@ -180,10 +182,7 @@ footer {
     .image img {
         max-width: 100%;
     }
- .gallery h2{
-    color: white;
 
-}
     .contact form {
         padding: 0 20px;
     }

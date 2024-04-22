@@ -1,4 +1,4 @@
-/* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 #btn-1,
@@ -28,15 +28,15 @@ header {
     font-size: 14px;
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Added transition effect */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 #btn-1:hover,
 #btn-2:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
-/* Improved hero section styling */
+
 #hero {
     display: flex;
     align-items: center;
@@ -47,13 +47,13 @@ header {
 #hero img {
     width: 50%;
     height: auto;
-    border-radius: 10px; /* Added border-radius to image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow to image */
-    transition: transform 0.3s; /* Added transition effect */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
 }
 
 #hero img:hover {
-    transform: scale(1.05); /* Scale image on hover */
+    transform: scale(1.05); 
 }
 
 .firstPart {
@@ -79,13 +79,13 @@ header {
     padding: 10px 30px;
     border: none;
     border-radius: 10px;
-    font-size: 16px; /* Increased font size */
+    font-size: 16px; 
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Added transition effect */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 #hero button:hover {
-    background-color: #F7C054; /* Change background color on hover */
+    background-color: #F7C054; 
 }
 
 #sponsor {
@@ -96,30 +96,33 @@ header {
 #sponsor img {
     width: 100%;
     object-fit: contain;
-    border-radius: 10px; /* Added border-radius to images */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow to images */
-    transition: transform 0.3s; /* Added transition effect */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
 }
 
 #sponsor img:hover {
-    transform: scale(1.05); /* Scale image on hover */
+    transform: scale(1.05); 
 }
 
 #dash-section {
     padding: 20px;
+    display: flex;
+    
+    max-width: 100%;
+    
 }
 
 #dash-section img {
-    display: block;
+    
     margin: 0 auto;
-    max-width: 100%;
 }
 
 #dash-container {
     background-color: #FDF5DF;
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 #section2 {
@@ -141,7 +144,7 @@ header {
     border-radius: 30px;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #section3 h2 {
@@ -177,7 +180,7 @@ header {
 }
 
 #redat:hover {
-    background-color: #F7C054; /* Change background color on hover */
+    background-color: #F7C054; 
 }
 
 #sinep {
